@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>br.com.rcbr.svc</groupId>
-	<artifactId>discovery-server</artifactId>
+	<artifactId>svc-discovery</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>discovery-server</name>
 	<description>Eureka Discovery Server da aplicação</description>
