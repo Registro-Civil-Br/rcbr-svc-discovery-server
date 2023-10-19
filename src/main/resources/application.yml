@@ -1,8 +1,9 @@
-server:
-  port: 8761
+spring:
+  application:
+    name: SVC-DISCOVERY
+  config:
+    import: configserver:${URL_CONFIG_SERVER:http://localhost:6060}
+  cloud:
+    config:
+      profile: ${ACTIVE_PROFILE:default}
 
-eureka:
-  client:
-    fetch-register: false
-    register-with-eureka: false
-    healthcheck: enabled
